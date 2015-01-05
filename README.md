@@ -13,7 +13,7 @@ Role Variables
 
 Default value can be found in defaults/main.yml
 
-  timezone: UTC
+    timezone: UTC
 
 Also you can set your timezone like string in *unix directory path format, which be valid from `/usr/share/zoneinfo/`.
 
