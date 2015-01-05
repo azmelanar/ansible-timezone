@@ -1,5 +1,7 @@
 Timezone
-=========
+========
+
+[![Build Status](https://api.travis-ci.org/azmelanar/ansible-timezone.png)](https://travis-ci.org/azmelanar/ansible-timezone)
 
 Role for installation packages of timezone and configuration system timezone.
 
