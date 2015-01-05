@@ -1,6 +1,17 @@
 ---
+#
+# This build script is provided by: https://github.com/azmelanar/ansible-timezone
+# Author: Dmitriy Slupytskyi
+#
+# For any issues of feedback report it at Github
+#
+
 language: python
-python: "2.7"
+python:
+  - "2.7"
+
+env:
+  - ANSIBLE_VERSION=1.8
 
 before_install:
   - sudo apt-get update -qq
