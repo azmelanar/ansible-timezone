@@ -1,0 +1,24 @@
+---
+galaxy_info:
+  author: Dmitriy Slupytskyi
+  description: installation and updating timezone
+  company: azmelanar
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - system
+
+dependencies: []
