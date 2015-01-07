@@ -1,0 +1,6 @@
+---
+# handlers file for test
+
+- name: update tzdata
+  command: dpkg-reconfigure -f noninteractive tzdata
+  when: ansible_os_family=='Debian'

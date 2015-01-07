@@ -22,9 +22,6 @@
     owner: root
     group: root
     mode: 0644
-  tags: [timezone]
-
-- name: update the hardware clock
-  command: dpkg-reconfigure -f noninteractive tzdata
-  when: ansible_os_family=='Debian'
+  notify:
+    - update tzdata
   tags: [timezone]
