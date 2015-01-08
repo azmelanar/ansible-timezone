@@ -1,7 +1,7 @@
 Timezone
 ========
 
-[![Build Status](https://api.travis-ci.org/azmelanar/ansible-timezone.png)](https://travis-ci.org/azmelanar/ansible-timezone)
+[![Build Status](https://api.travis-ci.org/azmelanar/ansible-timezone.png)](https://travis-ci.org/azmelanar/ansible-timezone) [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-timezone-blue.svg)](https://galaxy.ansible.com/list#/roles/2527)
 
 Role for installation packages of timezone and configuration system timezone.
 
