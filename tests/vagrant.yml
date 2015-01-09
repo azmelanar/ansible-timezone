@@ -1,5 +1,4 @@
 ---
-# test file for timezone
 - hosts: all
   remote_user: vagrant
   sudo: true
