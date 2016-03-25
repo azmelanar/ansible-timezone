@@ -17,6 +17,9 @@ galaxy_info:
   - name: Debian
     versions:
     - wheezy
+  - name: SLES
+    versions:
+    - 11
   categories:
   - system
 
