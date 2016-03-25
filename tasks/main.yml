@@ -11,6 +11,12 @@
   when: ansible_os_family=='RedHat'
   tags: [timezone]
 
+- stat: path=/usr/share/zoneinfo/{{ timezone }}
+  register: zoneinfo_file
+
+- fail: msg="Timezone specified does not exist"
+  when: zoneinfo_file.stat.exists != True
+
 - name: set timezone
   template: src=timezone.j2 dest=/etc/timezone
   tags: [timezone]
